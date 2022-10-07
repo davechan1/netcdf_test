@@ -1,0 +1,4 @@
+/home/dave/Documents/GitHub/netcdf_test/build/CMakeFiles/rebuild_cache.dir
+/home/dave/Documents/GitHub/netcdf_test/build/CMakeFiles/edit_cache.dir
+/home/dave/Documents/GitHub/netcdf_test/build/CMakeFiles/simple_xy_rd.dir
+/home/dave/Documents/GitHub/netcdf_test/build/CMakeFiles/simple_xy_wr.dir

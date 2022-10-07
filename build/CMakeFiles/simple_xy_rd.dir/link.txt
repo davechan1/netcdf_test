@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/simple_xy_rd.dir/src/simple_xy_rd.cpp.o  -o simple_xy_rd  -lnetcdf_c++4 -lnetcdf 

@@ -18,10 +18,19 @@ include_directories(
 
 # Search all .cpp files 
 file(GLOB_RECURSE SOURCE_FILES "simple_xy_wr.cpp")
+file(GLOB_RECURSE SOURCE_FILES "simple_xy_rd.cpp")
 
-add_executable(simple_xy_wr ${SOURCE_FILES})
+add_executable(simple_xy_wr src/simple_xy_wr.cpp)
+add_executable(simple_xy_rd src/simple_xy_rd.cpp)
 
 target_link_libraries(simple_xy_wr
+#  ${Boost_LIBRARIES}
+#  ${EIGEN3_LIBRARIES}
+  netcdf_c++4 
+  netcdf
+)
+
+target_link_libraries(simple_xy_rd
 #  ${Boost_LIBRARIES}
 #  ${EIGEN3_LIBRARIES}
   netcdf_c++4 
